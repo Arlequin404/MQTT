@@ -1,7 +1,9 @@
 ## MQTT Ruby Client Project
+
 This project demonstrates a simple implementation of an MQTT client using Ruby. The project includes a publisher and a subscriber that communicate through an MQTT broker (e.g., Mosquitto). The purpose is to showcase how MQTT protocols work with Ruby.
 
 **Requirements**
+
 Language and Tools
 Ruby Version: >= 3.0.0
 Mosquitto (MQTT Broker): >= 2.0.0
@@ -11,6 +13,7 @@ mqtt
 Installation Steps
 
 **Prerequisites**
+
 Ensure that Ruby, Bundler, and Mosquitto are installed.
 Install Docker if you want to containerize the application.
 Commands to Clone the Repository
@@ -19,6 +22,7 @@ git clone https://github.com/your-repository-name/mqtt-ruby-client.git
 cd mqtt-ruby-client
 ```
 **Run the Project**
+
 Install the required Ruby gems:
 ```bash
 bundle install
@@ -55,6 +59,7 @@ Docker Hub Repository
 
 
 **ersión en Español**
+
 Proyecto Cliente MQTT en Ruby
 Este proyecto demuestra una implementación simple de un cliente MQTT utilizando Ruby. El proyecto incluye un publicador y un suscriptor que se comunican a través de un broker MQTT (por ejemplo, Mosquitto). El propósito es mostrar cómo funciona el protocolo MQTT con Ruby.
 
@@ -69,6 +74,7 @@ mqtt
 **Pasos de Instalación**
 
 **Prerrequisitos**
+
 Asegúrate de tener instalados Ruby, Bundler, y Mosquitto.
 Instala Docker si deseas contenerizar la aplicación.
 Comandos para Clonar el Repositorio
@@ -107,5 +113,6 @@ Verifica los registros para asegurar el funcionamiento:
 docker logs mqtt-ruby-client
 ```
 **Docker Hub**
+
 Enlace al repositorio en Docker Hub (reemplaza con tu enlace):
 Repositorio Docker Hub
